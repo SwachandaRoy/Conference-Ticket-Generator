@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+
+
+.app-background {
+  background-image: url("./assets/images/background-desktop.png"); /* Path relative to public folder */
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-size: cover; /* This scales the image to cover the entire container */
+  height: 100vh; /* Viewport height to ensure full screen coverage */
+  width: 100vw;
+}
