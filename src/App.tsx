@@ -7,7 +7,7 @@ function App() {
       <div className='app-background'>
       <header className="App-header p-10">
         <h5 className='text-blue-50'>Coding Conf</h5>
-        <h1 className='text-red-500'>HI THERE</h1>
+        <h1 className='text-gray-500'>HI THERE</h1>
        <h1>
         Hello World
        </h1>
