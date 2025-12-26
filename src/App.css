@@ -9,11 +9,18 @@ html, body, #root {
 }
 
 
+
 .app-background {
-  background-image: url("./assets/images/background-desktop.png"); /* Path relative to public folder */
-  background-position: fill;
-  background-repeat: no-repeat;
-  background-size: cover; /* This scales the image to cover the entire container */
-  height: 100vh; /* Viewport height to ensure full screen coverage */
-  width: 100vw;
+  background-image:
+    var(--pattern-lines),
+    var(--pattern-circle),
+    var(--pattern-squiggly-line-bottom),
+    var(--pattern-squiggly-line-top),
+    var(--bg-desktop);
+
+  background-repeat: repeat-x, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center top, 70% 90%, bottom left, top right, center center;
+  background-size: 1200px auto, 200px auto, 500px auto, 400px auto, cover;
+  min-height: 100vh;
+  width: 100%;
 }
